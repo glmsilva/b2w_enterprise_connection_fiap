@@ -1,0 +1,85 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("/images/ac-1-7-6.jpg");
+    background-position: contain;
+    background-size: cover;
+    height: 500px;
+}
+
+header div h1 {
+    font-size: 7em;
+    border: 5px dotted white;
+    display: inline-block;
+    border: 10px dashed white;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    color: white;
+    padding: 40px;
+    font-family: 'Montserrat';
+}
+
+img {
+    width: 450px;
+    height: 450px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+   text-align: justify;
+   padding: 20px;
+}
+
+section:last-of-type {
+    padding: 20px 0;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.container {
+    height: 100%;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bg-gray {
+    background-color:#e6e6ff;
+}
+
+.text-block {
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.image-block {
+    width: 50%;
+}
+
